@@ -43,9 +43,11 @@ Java 反射机制是在运行状态中，对于任意一个类，都能够获得
 持久性(Durability)：事务一旦提交，所做的修改将会永远保存在数据库中。
 - BS 与 CS 的联系与区别
 - Cookie 和 Session 的区别
-<br>
+
+
 Cookie保存在客户端，保存的信息较少，一般就是sessionId；一般随着浏览器窗口关闭而失效，也可以设置过期时间，会持久化到硬盘；不可靠。
-<br>
+
+
 Session保存在服务端，保存的信息较多；依赖于cookie，或者url重写；
 - fail-fast 与 fail-safe 机制有什么区别
 - [get 和 post 请求的区别](./get%20和%20post%20请求的区别.md)
